@@ -1,9 +1,9 @@
 import React from "react";
-import "./app.css"
+import BtnBotcamp from "./components/BtnBotcamp";
 
 class App extends React.Component {
     render() {
-        return <button className="btn-botcamp">Entrar</button>
+        return <BtnBotcamp/>
     }
 }
 
