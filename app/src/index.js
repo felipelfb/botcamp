@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./app"
 
-class App extends React.Component {
-    render() {
-        return <button>Entrar</button>
-    }
-}
 
 ReactDOM.render(<App/>, document.getElementById("root"))
