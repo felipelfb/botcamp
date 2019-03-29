@@ -1,16 +1,13 @@
 import React from "react";
 import BtnBotcamp from "./components/BtnBotcamp";
-import BotcampLogo from "./components/BotcampLogo";
+import "./style.css";
+import LogoBotcamp from "./components/LogoBotcamp";
 
-class App extends React.Component {
-    render() {
-        return (
-        <React.Fragment>
-            <BotcampLogo/>
-            <BtnBotcamp/>
-        </React.Fragment>
-        );
-    }
-}
+const App = () => (
+    <div className="main-div">
+        <LogoBotcamp/>
+        <BtnBotcamp/>
+    </div>
+)
 
 export default App;
