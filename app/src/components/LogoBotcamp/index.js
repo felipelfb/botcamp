@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "./botcamp-logo.png";
-import "./style.css"
+import logo from "../../images/botcamp-logo.png";
+import "./style.css";
 
-const BotcampLogo = () => (
-    <img className="botcamp-logo" src={logo} alt="Logo do Botcamp"></img>
+const LogoBotcamp = () => (
+    <img className="logo-botcamp" src={logo} alt="Logo do Botcamp"/>
 );
 
-export default BotcampLogo;
+export default LogoBotcamp;
