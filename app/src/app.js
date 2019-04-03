@@ -7,7 +7,7 @@ import LoginWrapper from "./components/LoginWrapper";
 const App = () => (
     <LoginWrapper>
         <LogoBotcamp/>
-        <BtnBotcamp/>
+        <BtnBotcamp>Entrar</BtnBotcamp>
     </LoginWrapper>
 );
 
