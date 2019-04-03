@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const BtnBotcamp = styled.button`
@@ -10,9 +9,5 @@ const BtnBotcamp = styled.button`
     border-radius: 25px;
     text-transform: uppercase;
 `;
-
-// const BtnBotcamp = () => (
-//     <button className="btn-botcamp">Entrar</button>
-// );
 
 export default BtnBotcamp;
