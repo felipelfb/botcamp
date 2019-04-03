@@ -5,11 +5,10 @@ import "./styles/reset.css";
 import LoginWrapper from "./components/LoginWrapper";
 
 const App = () => (
-    <React.Fragment>
+    <LoginWrapper>
         <LogoBotcamp/>
         <BtnBotcamp/>
-        <LoginWrapper/>
-    </React.Fragment>
+    </LoginWrapper>
 );
 
 export default App;
