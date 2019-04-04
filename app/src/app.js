@@ -1,14 +1,11 @@
 import React from "react";
-import BtnBotcamp from "./components/BtnBotcamp";
-import LogoBotcamp from "./components/LogoBotcamp";
+import Login from "./pages/login";
 import "./styles/reset.css";
-import LoginWrapper from "./components/LoginWrapper";
 
-const App = () => (
-    <LoginWrapper>
-        <LogoBotcamp/>
-        <BtnBotcamp content="Entrar"></BtnBotcamp>
-    </LoginWrapper>
-);
+class App extends React.Component {
+    render() {
+        return <Login/>;
+    }
+}
 
 export default App;
